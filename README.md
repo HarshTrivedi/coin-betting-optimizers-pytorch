@@ -23,15 +23,15 @@ To understand betting game and the duality between coin betting and convex optim
 
 1. **Mnist**
 
-![Mnist Log-Losses](https://raw.githubusercontent.com/HarshTrivedi/coin-betting-optimizers-pytorch/master/log-losses-mnist.png?raw=true)
+<img align="center" src="https://raw.githubusercontent.com/HarshTrivedi/coin-betting-optimizers-pytorch/master/log-losses-mnist.png">
 
 2. **Cifar**
 
-![Cifar Log-Losses](https://raw.githubusercontent.com/HarshTrivedi/coin-betting-optimizers-pytorch/master/log-losses-cifar.png?raw=true)
+<img align="center" src="https://raw.githubusercontent.com/HarshTrivedi/coin-betting-optimizers-pytorch/master/log-losses-cifar.png">
 
 3. **1d play** `f(x) = |x-1|`
 
-![1d function play gif](https://raw.githubusercontent.com/HarshTrivedi/coin-betting-optimizers-pytorch/master/images/1d_play.gif)
+<img align="center" src="https://raw.githubusercontent.com/HarshTrivedi/coin-betting-optimizers-pytorch/master/images/1d_play.gif">
 
 
 Please cite the following papers if you use this in your work.
