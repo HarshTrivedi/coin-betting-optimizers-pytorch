@@ -21,17 +21,8 @@ To understand betting game and the duality between coin betting and convex optim
 
 ### Some plots
 
-1. **Mnist**
-
-<img align="center" src="https://raw.githubusercontent.com/HarshTrivedi/coin-betting-optimizers-pytorch/master/log-losses-mnist.png">
-
-2. **Cifar**
-
-<img align="center" src="https://raw.githubusercontent.com/HarshTrivedi/coin-betting-optimizers-pytorch/master/log-losses-cifar.png">
-
-3. **1d play** `f(x) = |x-1|`
-
-<img align="center" src="https://raw.githubusercontent.com/HarshTrivedi/coin-betting-optimizers-pytorch/master/images/1d_play.gif">
+<img src="https://raw.githubusercontent.com/HarshTrivedi/coin-betting-optimizers-pytorch/master/log-losses-mnist.png" width="300">  | <img src="https://raw.githubusercontent.com/HarshTrivedi/coin-betting-optimizers-pytorch/master/log-losses-cifar.png" width="300"> | <img src="https://raw.githubusercontent.com/HarshTrivedi/coin-betting-optimizers-pytorch/master/images/1d_play.gif" width="300">
+:------------------------------------------:|:-----------------------------------------:|:-------------------------------:
 
 
 Please cite the following papers if you use this in your work.
