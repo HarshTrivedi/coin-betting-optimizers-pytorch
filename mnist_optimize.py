@@ -92,7 +92,9 @@ def compute_epoch_loss():
 
 name_optimizers = [
             ('cocob-backprop', cocob.CocobBackprop(model.parameters())),
-            ('cocob-ons', cocob.CocobOns(model.parameters()))
+            ('cocob-ons', cocob.CocobOns(model.parameters())),
+            ('adam', torch.optim.Adam(model.parameters(), lr=0.01)),
+            ('adagrad', torch.optim.Adagrad(model.parameters(), lr=0.001))
         ]
 
 
@@ -129,7 +131,7 @@ for opt_name, optimizer in name_optimizers:
 plt.xlabel('Epochs')
 plt.ylabel('Log-Loss')
 plt.legend(loc='upper right')
-plt.title(loc='Mnist')
+plt.title('Mnist')
 # plt.show()
 plt.savefig('log-losses-mnist.png')
 
