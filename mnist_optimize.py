@@ -92,9 +92,8 @@ def compute_epoch_loss():
 
 name_optimizers = [
             ('cocob-backprop', cocob.CocobBackprop(model.parameters())),
-            ('cocob-ons', cocob.CocobOns(model.parameters())),
-            ('adam', torch.optim.Adam(model.parameters(), lr=0.01)),
-            ('adagrad', torch.optim.Adagrad(model.parameters(), lr=0.001))
+            ('adam', torch.optim.Adam(model.parameters(), lr=0.005)),
+            ('adagrad', torch.optim.Adagrad(model.parameters()))
         ]
 
 
